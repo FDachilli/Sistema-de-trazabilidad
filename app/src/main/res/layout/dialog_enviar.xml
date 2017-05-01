@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textProductoEnv"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="@string/dialog_producto"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/textCodProdEnv"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:text="codigo producto"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textReceptorEnv"
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:text="@string/dialog_receptor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+        <Spinner
+            android:id="@+id/comboBoxReceptores"
+            android:layout_width="250dp"
+            android:layout_height="match_parent">
+
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:id="@+id/descripcionProdEnv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:backgroundTint="#f58233"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnConfirEnv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_Login"
+        android:visibility="invisible"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progressbar_color"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

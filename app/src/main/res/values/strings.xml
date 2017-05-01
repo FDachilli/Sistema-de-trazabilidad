@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Koinonia</string>
+    <string name="scan">Scan</string>
+    <string name="sendLoc">Obtener posicion</string>
+    <string name="enviar">Enviar</string>
+    <string name="recibido">Recibir</string>
+    <string name="dialog_donante">Donante: </string>
+    <string name="dialog_receptor">Receptor: </string>
+    <string name="tv_user">Nombre de usuario: </string>
+    <string name="tv_password">Contraseña: </string>
+    <string name="login">Ingresar</string>
+    <string name="dialog_producto"> Producto: </string>
+    <string name="notificacion_direccion">Direccion: </string>
+    <string name="notificacion_fecha">Fecha: </string>
+    <string name="notificacion_donante">Donante: </string>
+</resources>
